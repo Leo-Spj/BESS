@@ -4,7 +4,35 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-Una breve descripción del proyecto.
+## Configuración del Entorno
+
+Para configurar el entorno del proyecto, se recomienda utilizar `conda` para gestionar las dependencias necesarias:
+
+1. Verifica que `conda` esté instalado en tu sistema. Si no es así, descárgalo e instálalo desde [este enlace](https://www.anaconda.com/download/success).
+
+2. En el directorio del proyecto, crea el entorno utilizando el archivo `environment.yml`:
+
+    ```bash
+    conda env create -f environment.yml
+    ```
+
+3. Activa el entorno creado:
+
+    ```bash
+    conda activate BESSPV
+    ```
+
+## Ejecución de Pruebas
+
+En la carpeta `notebooks/` se encontrarán los cuadernos Jupyter.
+
+Orden de ejecución de los notebooks:
+
+1. `3.IterativeDispatch48_CaseB`
+2. `4.PostProcessing_CaseB.ipynb`
+3. `4.PostProcessing_Plots_CaseB.ipynb`
+4. `9.TestingVisuals.ipynb`
+
 
 ## Organización del Proyecto
 
