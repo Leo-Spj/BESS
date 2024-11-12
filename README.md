@@ -6,9 +6,9 @@
 
 ## Configuración del Entorno
 
-Para configurar el entorno del proyecto, se recomienda utilizar `conda` para gestionar las dependencias necesarias:
+Use `conda` para configurar el entorno del proyecto con las dependencias necesarias:
 
-1. Verifica que `conda` esté instalado en tu sistema. Si no es así, descárgalo e instálalo desde [este enlace](https://www.anaconda.com/download/success).
+1. Verifica que `conda` esté instalado en tu sistema. [Link](https://www.anaconda.com/download/success).
 
 2. En el directorio del proyecto, crea el entorno utilizando el archivo `environment.yml`:
 
